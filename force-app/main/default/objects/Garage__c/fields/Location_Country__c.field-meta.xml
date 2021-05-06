@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location_Country__c</fullName>
+    <externalId>false</externalId>
+    <label>Location Country</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Location_State__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>United States of America</fullName>
+                <default>false</default>
+                <label>United States of America</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>CA</controllingFieldValue>
+            <controllingFieldValue>OH</controllingFieldValue>
+            <controllingFieldValue>TX</controllingFieldValue>
+            <controllingFieldValue>AZ</controllingFieldValue>
+            <controllingFieldValue>NY</controllingFieldValue>
+            <controllingFieldValue>FL</controllingFieldValue>
+            <valueName>United States of America</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

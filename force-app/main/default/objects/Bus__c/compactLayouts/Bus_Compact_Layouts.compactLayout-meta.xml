@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bus_Compact_Layouts</fullName>
+    <fields>Name</fields>
+    <fields>VIN__c</fields>
+    <fields>License_Plate__c</fields>
+    <fields>Maximum_Capacity__c</fields>
+    <fields>Odometer_Reading__c</fields>
+    <fields>Resale_Value__c</fields>
+    <label>Bus Compact Layouts</label>
+</CompactLayout>

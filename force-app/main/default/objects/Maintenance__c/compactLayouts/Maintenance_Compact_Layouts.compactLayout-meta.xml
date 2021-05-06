@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Maintenance_Compact_Layouts</fullName>
+    <fields>Name</fields>
+    <fields>Bus__c</fields>
+    <fields>Garage__c</fields>
+    <fields>Recorded_Odometer__c</fields>
+    <fields>Schedule_Date_Time__c</fields>
+    <label>Maintenance Compact Layouts</label>
+</CompactLayout>

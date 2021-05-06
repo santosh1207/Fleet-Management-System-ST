@@ -1,0 +1,20 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome" access="global" controller="FleetManagementSystemHandler">
+    <aura:attribute name="busList" type="List"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:registerEvent name="FleetManagementSystemEvent" type="c:FleetManagementSystemEvent"/>
+    
+    <div class="slds-box slds-theme_shade">
+        <div class="slds-grid slds-wrap">            
+            <aura:iteration items="{!v.busList}" var="rec" >
+                <div class="slds-col slds-size_1-of-3 slds-p-right_small slds-p-bottom_small">
+                    <lightning:card variant="Narrow" title="{!rec.Name}" class="{!rec.class}">
+                        <a onclick="{!c.handleData}" data-Id="{!rec.Id}"><lightning:formattedRichText value="{!rec.Bus_Image__c}"/></a>
+                    	<aura:set attribute="footer">
+                        	{!rec.License_Plate__c}
+        				</aura:set>
+                    </lightning:card>
+                </div>  
+            </aura:iteration>
+        </div>
+    </div>
+</aura:component>

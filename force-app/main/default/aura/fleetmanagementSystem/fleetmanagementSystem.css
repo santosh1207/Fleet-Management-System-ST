@@ -1,0 +1,9 @@
+.THIS .notSelected{
+    border-style: none;
+}
+
+.THIS .selected{
+    border-style: solid;
+    border-color: blue;
+    background-color: #F0F8FF;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Last_Ping_Location__Latitude__s</columns>
+    <columns>Last_Ping_Location__Longitude__s</columns>
+    <columns>Odometer_Reading__c</columns>
+    <columns>Next_Service_Odometer_Reading__c</columns>
+    <columns>ServiceRequired__c</columns>
+    <columns>Maximum_Capacity__c</columns>
+    <columns>Make__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>
